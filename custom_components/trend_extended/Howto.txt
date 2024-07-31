@@ -1,0 +1,5 @@
+pip3 install -r requirements_test_all.txt
+pytest ./tests/components/trend_extended/ --cov=homeassistant.components.trend_extended --cov-report term-missing -vv
+
+pytest ./tests/components/trend_extended/test_init.py
+pytest ./tests/components/trend_extended/test_binary_sensor.py -x

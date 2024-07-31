@@ -1,0 +1,15 @@
+{
+  "domain": "trend_extended",
+  "name": "Trend Extended",
+  "codeowners": [
+    "@engelchrisi"
+  ],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/trend_extended",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "quality_scale": "internal",
+  "requirements": [
+    "numpy==1.26.0"
+  ]
+}
